@@ -16,7 +16,7 @@ function App() {
         <div className="px-5 xl:px-32 container  mt-10">
           <Navbar />
           <Routes>
-            <Route path="/" element={<CreateFlashCard />} />{/*giving defult path to createflashcard  */}
+            <Route path="/" element={<CreateFlashCard />} />{/*giving default path to createflashcard  */}
             <Route path="/myflashcard" element={<MyFlashCard />} />
             <Route
               path="/flashcarddetails/:groupId"
